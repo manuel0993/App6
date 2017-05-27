@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="App6.App6" android:versionCode="1">
+	<uses-sdk android:minSdkVersion="14" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<application android:label="App6.Android" android:icon="@drawable/Icon">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAnv3jW-PFwM3xw1OaT-msbgfuSPwjQWug" />
+	</application>
+</manifest>
